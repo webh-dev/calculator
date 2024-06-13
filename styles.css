@@ -60,3 +60,7 @@ button:active {
 .operator-active {
     background-color: aliceblue;
 }
+
+#clear {
+    background-color: rgb(248, 183, 126);
+}

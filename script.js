@@ -60,6 +60,7 @@ function addNumbers() {
     let str = count.nums.toString()
     let newStr = str.split(",").join("")
     updateDisplay(eval(newStr))
+    removeActiveClass()
 }
 
 function removeActiveClass() {
