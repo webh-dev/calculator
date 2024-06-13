@@ -55,7 +55,13 @@ button:active {
     padding: 10px;
     text-align: right;
     font-size: 2rem;
+    overflow: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
 }
+.display::-webkit-scrollbar {
+    display: none;
+  }
 
 .operator-active {
     background-color: aliceblue;
